@@ -8,6 +8,7 @@ import subprocess
 from flask import Flask
 import jinja2
 import requests  # To call a routing API
+import psutil
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -85,22 +86,40 @@ def add_red_polyline(map_object, coordinates):
         weight=3.5
     ).add_to(map_object)
     
+import subprocess
+
 def get_buffered_wkt(encoded_polyline, buffer_radius=5):
     node_command = ["node", "polyline_buffer.js", encoded_polyline, str(buffer_radius)]
-    result = subprocess.run(node_command, capture_output=True, text=True)
-    
-    if result.returncode == 0:
-        return result.stdout.strip()
-    else:
-        print("Error:", result.stderr)
+
+    def get_memory_usage():
+        process = psutil.Process(os.getpid())
+        return f"{process.memory_info().rss / 1024 / 1024:.2f} MB"
+
+    print(f"Memory Before Subprocess: {get_memory_usage()}")
+
+    try:
+        process = subprocess.Popen(node_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+        stdout, stderr = process.communicate()
+
+        print(f"Memory After Subprocess: {get_memory_usage()}")
+
+        if process.returncode == 0:
+            return stdout.strip()
+        else:
+            print("Error:", stderr)
+            return None
+
+    except Exception as e:
+        print("Subprocess error:", str(e))
         return None
+
     
 def get_decoded_wkt(encoded_polyline):
     node_command = ["node", "decode_polyline.js", encoded_polyline]
     result = subprocess.run(node_command, capture_output=True, text=True)
 
     if result.returncode == 0:
-        print(result.stdout.strip())
+        # print(result.stdout.strip())
         return result.stdout.strip()
     else:
         print("Error:", result.stderr)

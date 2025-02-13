@@ -1885,3 +1885,236 @@
 [142 rows x 2 columns]
 2025-02-14 03:45:36,037 - INFO - Map saved to templates/line_plot_map.html
 2025-02-14 03:45:36,068 - INFO - 127.0.0.1 - - [14/Feb/2025 03:45:36] "POST / HTTP/1.1" 200 -
+2025-02-14 03:50:00,763 - INFO - Starting Flask app...
+2025-02-14 03:50:00,784 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 03:50:00,784 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 03:50:00,785 - INFO -  * Restarting with stat
+2025-02-14 03:50:01,118 - INFO - Starting Flask app...
+2025-02-14 03:50:01,132 - WARNING -  * Debugger is active!
+2025-02-14 03:50:01,137 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 03:50:04,194 - INFO - 127.0.0.1 - - [14/Feb/2025 03:50:04] "GET / HTTP/1.1" 200 -
+2025-02-14 03:50:04,203 - INFO - 127.0.0.1 - - [14/Feb/2025 03:50:04] "GET /static/space.gif HTTP/1.1" 200 -
+2025-02-14 03:50:04,233 - INFO - 127.0.0.1 - - [14/Feb/2025 03:50:04] "GET /static/space.gif HTTP/1.1" 200 -
+2025-02-14 03:50:44,553 - INFO - POST request received.
+2025-02-14 03:50:44,556 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 03:50:44,557 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 03:50:44,576 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 03:50:44,579 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 03:50:49,579 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 03:50:49,604 - INFO - 127.0.0.1 - - [14/Feb/2025 03:50:49] "POST / HTTP/1.1" 200 -
+2025-02-14 04:04:33,061 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 04:04:33,185 - INFO -  * Restarting with stat
+2025-02-14 04:04:33,883 - INFO - Starting Flask app...
+2025-02-14 04:04:33,902 - WARNING -  * Debugger is active!
+2025-02-14 04:04:33,908 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 04:04:37,062 - INFO - Starting Flask app...
+2025-02-14 04:04:37,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 04:04:37,078 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 04:04:37,079 - INFO -  * Restarting with stat
+2025-02-14 04:04:37,424 - INFO - Starting Flask app...
+2025-02-14 04:04:37,438 - WARNING -  * Debugger is active!
+2025-02-14 04:04:37,442 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 04:04:40,634 - INFO - POST request received.
+2025-02-14 04:04:40,637 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 04:04:40,638 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 04:04:40,650 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 04:04:40,655 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 04:04:43,200 - INFO - 127.0.0.1 - - [14/Feb/2025 04:04:43] "GET / HTTP/1.1" 200 -
+2025-02-14 04:04:43,292 - INFO - 127.0.0.1 - - [14/Feb/2025 04:04:43] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 04:04:43,295 - INFO - 127.0.0.1 - - [14/Feb/2025 04:04:43] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 04:04:46,237 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 04:04:46,263 - INFO - 127.0.0.1 - - [14/Feb/2025 04:04:46] "POST / HTTP/1.1" 200 -
+2025-02-14 04:06:51,517 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 04:06:51,588 - INFO -  * Restarting with stat
+2025-02-14 04:06:52,084 - INFO - Starting Flask app...
+2025-02-14 04:06:52,100 - WARNING -  * Debugger is active!
+2025-02-14 04:06:52,106 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 04:07:08,391 - INFO - Starting Flask app...
+2025-02-14 04:07:08,418 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 04:07:08,419 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 04:07:08,419 - INFO -  * Restarting with stat
+2025-02-14 04:07:08,752 - INFO - Starting Flask app...
+2025-02-14 04:07:08,766 - WARNING -  * Debugger is active!
+2025-02-14 04:07:08,772 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 04:07:17,937 - INFO - 127.0.0.1 - - [14/Feb/2025 04:07:17] "GET / HTTP/1.1" 200 -
+2025-02-14 04:07:17,967 - INFO - 127.0.0.1 - - [14/Feb/2025 04:07:17] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 04:07:48,144 - INFO - POST request received.
+2025-02-14 04:07:48,681 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-02-14 04:07:50,009 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car/json HTTP/11" 200 None
+2025-02-14 04:07:50,771 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 04:07:50,772 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 04:07:50,789 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 04:07:50,793 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 04:07:50,794 - ERROR - Unexpected error during processing: name 'psutil' is not defined
+2025-02-14 04:07:50,794 - INFO - 127.0.0.1 - - [14/Feb/2025 04:07:50] "POST / HTTP/1.1" 200 -
+2025-02-14 04:08:09,732 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 04:08:09,826 - INFO -  * Restarting with stat
+2025-02-14 04:09:15,833 - INFO - Starting Flask app...
+2025-02-14 04:09:15,866 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 04:09:15,866 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 04:09:15,867 - INFO -  * Restarting with stat
+2025-02-14 04:09:16,247 - INFO - Starting Flask app...
+2025-02-14 04:09:16,261 - WARNING -  * Debugger is active!
+2025-02-14 04:09:16,269 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 04:09:20,345 - INFO - POST request received.
+2025-02-14 04:09:20,353 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-02-14 04:09:21,762 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car/json HTTP/11" 200 None
+2025-02-14 04:09:22,530 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 04:09:22,530 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 04:09:22,579 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 04:09:22,583 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 04:09:27,954 - INFO - 127.0.0.1 - - [14/Feb/2025 04:09:27] "GET / HTTP/1.1" 200 -
+2025-02-14 04:09:28,052 - INFO - 127.0.0.1 - - [14/Feb/2025 04:09:28] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 04:09:28,053 - INFO - 127.0.0.1 - - [14/Feb/2025 04:09:28] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 04:09:28,870 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 04:09:28,988 - INFO - 127.0.0.1 - - [14/Feb/2025 04:09:28] "POST / HTTP/1.1" 200 -
+2025-02-14 04:09:58,329 - INFO - POST request received.
+2025-02-14 04:09:58,335 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-02-14 04:09:59,420 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car/json HTTP/11" 200 None
+2025-02-14 04:10:01,387 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 04:10:01,387 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 04:10:01,390 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 04:10:01,392 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 04:10:07,508 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 04:10:07,623 - INFO - 127.0.0.1 - - [14/Feb/2025 04:10:07] "POST / HTTP/1.1" 200 -
+2025-02-14 04:11:26,081 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 04:11:26,169 - INFO -  * Restarting with stat
+2025-02-14 04:11:26,710 - INFO - Starting Flask app...
+2025-02-14 04:11:26,730 - WARNING -  * Debugger is active!
+2025-02-14 04:11:26,738 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 04:11:31,880 - INFO - 127.0.0.1 - - [14/Feb/2025 04:11:31] "GET / HTTP/1.1" 200 -
+2025-02-14 04:11:31,894 - INFO - 127.0.0.1 - - [14/Feb/2025 04:11:31] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 04:11:31,916 - INFO - 127.0.0.1 - - [14/Feb/2025 04:11:31] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 04:12:08,701 - INFO - POST request received.
+2025-02-14 04:12:09,493 - DEBUG - Starting new HTTPS connection (1): api.openrouteservice.org:443
+2025-02-14 04:12:10,609 - DEBUG - https://api.openrouteservice.org:443 "POST /v2/directions/driving-car/json HTTP/11" 200 None
+2025-02-14 04:12:11,384 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 04:12:11,385 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 04:12:11,393 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 04:12:11,397 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 04:12:30,164 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 04:12:30,298 - INFO - 127.0.0.1 - - [14/Feb/2025 04:12:30] "POST / HTTP/1.1" 200 -
