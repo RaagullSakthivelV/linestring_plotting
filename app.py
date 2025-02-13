@@ -4,6 +4,7 @@ import pandas as pd
 from shapely.geometry import LineString
 import os
 import logging
+import subprocess
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -28,6 +29,35 @@ def extract_coordinates(linestring):
     except Exception as e:
         # logging.error(f"Error extracting coordinates from LINESTRING: {e}")
         raise ValueError("Invalid LINESTRING format. Please check the input.")
+    
+def add_red_polyline(map_object, coordinates):
+    """Adds a red polyline to the map based on given coordinates."""
+    folium.PolyLine(
+        [(coord[0], coord[1]) for coord in coordinates], 
+        color="red", 
+        weight=3.5
+    ).add_to(map_object)
+    
+def get_buffered_wkt(encoded_polyline, buffer_radius=5):
+    node_command = ["node", "polyline_buffer.js", encoded_polyline, str(buffer_radius)]
+    result = subprocess.run(node_command, capture_output=True, text=True)
+    
+    if result.returncode == 0:
+        return result.stdout.strip()
+    else:
+        print("Error:", result.stderr)
+        return None
+    
+def get_decoded_wkt(encoded_polyline):
+    node_command = ["node", "decode_polyline.js", encoded_polyline]
+    result = subprocess.run(node_command, capture_output=True, text=True)
+
+    if result.returncode == 0:
+        print(result.stdout.strip())
+        return result.stdout.strip()
+    else:
+        print("Error:", result.stderr)
+        return None
 
 # Route to upload the CSV file and LINESTRING data
 @app.route("/", methods=["GET", "POST"])
@@ -72,7 +102,10 @@ def index():
                 logging.info(f"Valid data after cleaning:\n{data}")
 
                 # Extract coordinates from LINESTRING
-                coordinates = extract_coordinates(linestring)
+                decodedlineString = get_buffered_wkt(linestring, 5)
+                coordinates = extract_coordinates(decodedlineString)
+                decoded_wkt = get_decoded_wkt(linestring)
+                coordinatesdecoded_wkt = extract_coordinates(decoded_wkt)
 
                 # Create a LineString from the coordinates
                 line = LineString(coordinates)
@@ -80,9 +113,12 @@ def index():
 
                 # Create a map centered on the first point (latitude, longitude)
                 m = folium.Map(location=[coordinates[0][0], coordinates[0][1]], zoom_start=10)
-
+                
                 # Add the line to the map
                 folium.PolyLine([(coord[0], coord[1]) for coord in coordinates], color="blue", weight=2.5).add_to(m)
+
+                # Add the red polyline for the encoded route
+                add_red_polyline(m, coordinatesdecoded_wkt)
 
                 # Add markers to the map
                 for _, row in data.iterrows():

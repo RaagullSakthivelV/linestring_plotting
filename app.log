@@ -527,3 +527,808 @@
 [205 rows x 2 columns]
 2025-01-29 10:20:04,240 - INFO - Map saved to templates/line_plot_map.html
 2025-01-29 10:20:04,275 - INFO - 127.0.0.1 - - [29/Jan/2025 10:20:04] "POST / HTTP/1.1" 200 -
+2025-01-29 11:44:45,982 - INFO - Starting Flask app...
+2025-01-29 11:44:46,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 11:44:46,011 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 11:44:46,011 - INFO -  * Restarting with stat
+2025-01-29 11:44:46,395 - INFO - Starting Flask app...
+2025-01-29 11:44:46,410 - WARNING -  * Debugger is active!
+2025-01-29 11:44:46,420 - INFO -  * Debugger PIN: 629-103-838
+2025-01-29 11:44:53,020 - INFO - POST request received.
+2025-01-29 11:44:53,026 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-01-29 11:44:53,028 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-01-29 11:44:53,049 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  12.018262  79.856846
+2  11.024254  77.002823
+3  11.024254  77.002823
+4  11.054768  76.994111
+2025-01-29 11:44:53,054 - INFO - Valid data after cleaning:
+      latitude  longitude
+0    11.054768  76.994111
+1    12.018262  79.856846
+2    11.024254  77.002823
+3    11.024254  77.002823
+4    11.054768  76.994111
+..         ...        ...
+200  11.066640  77.092803
+201  11.044240  77.029111
+202  11.080893  77.022347
+203  11.041881  77.060727
+204  21.193779  72.801813
+
+[205 rows x 2 columns]
+2025-01-29 11:44:53,253 - INFO - Map saved to templates/line_plot_map.html
+2025-01-29 11:44:53,290 - INFO - 127.0.0.1 - - [29/Jan/2025 11:44:53] "POST / HTTP/1.1" 200 -
+2025-01-29 11:44:58,661 - INFO - 127.0.0.1 - - [29/Jan/2025 11:44:58] "GET / HTTP/1.1" 200 -
+2025-01-29 11:44:58,779 - INFO - 127.0.0.1 - - [29/Jan/2025 11:44:58] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-01-29 11:44:58,780 - INFO - 127.0.0.1 - - [29/Jan/2025 11:44:58] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-01-29 11:46:15,636 - INFO - POST request received.
+2025-01-29 11:46:15,638 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-01-29 11:46:15,639 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-01-29 11:46:15,664 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  12.018262  79.856846
+2  11.024254  77.002823
+3  11.024254  77.002823
+4  11.054768  76.994111
+2025-01-29 11:46:15,670 - INFO - Valid data after cleaning:
+      latitude  longitude
+0    11.054768  76.994111
+1    12.018262  79.856846
+2    11.024254  77.002823
+3    11.024254  77.002823
+4    11.054768  76.994111
+..         ...        ...
+200  11.066640  77.092803
+201  11.044240  77.029111
+202  11.080893  77.022347
+203  11.041881  77.060727
+204  21.193779  72.801813
+
+[205 rows x 2 columns]
+2025-01-29 11:46:15,844 - INFO - Map saved to templates/line_plot_map.html
+2025-01-29 11:46:15,882 - INFO - 127.0.0.1 - - [29/Jan/2025 11:46:15] "POST / HTTP/1.1" 200 -
+2025-01-29 13:03:44,884 - INFO - Starting Flask app...
+2025-01-29 13:03:44,921 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 13:03:44,922 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 13:03:44,922 - INFO -  * Restarting with stat
+2025-01-29 13:03:45,310 - INFO - Starting Flask app...
+2025-01-29 13:03:45,321 - WARNING -  * Debugger is active!
+2025-01-29 13:03:45,328 - INFO -  * Debugger PIN: 629-103-838
+2025-01-29 13:03:49,571 - INFO - POST request received.
+2025-01-29 13:04:01,725 - INFO - 127.0.0.1 - - [29/Jan/2025 13:04:01] "GET / HTTP/1.1" 200 -
+2025-01-29 13:04:02,055 - INFO - 127.0.0.1 - - [29/Jan/2025 13:04:02] "GET /static/space.gif HTTP/1.1" 200 -
+2025-01-29 13:04:02,150 - ERROR - Unexpected error during processing: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-01-29 13:04:02,151 - INFO - 127.0.0.1 - - [29/Jan/2025 13:04:02] "POST / HTTP/1.1" 200 -
+2025-01-29 13:04:11,872 - INFO - POST request received.
+2025-01-29 13:04:11,877 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-01-29 13:04:11,878 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-01-29 13:04:11,915 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  12.018262  79.856846
+2  11.024254  77.002823
+3  11.024254  77.002823
+4  11.054768  76.994111
+2025-01-29 13:04:11,920 - INFO - Valid data after cleaning:
+      latitude  longitude
+0    11.054768  76.994111
+1    12.018262  79.856846
+2    11.024254  77.002823
+3    11.024254  77.002823
+4    11.054768  76.994111
+..         ...        ...
+200  11.066640  77.092803
+201  11.044240  77.029111
+202  11.080893  77.022347
+203  11.041881  77.060727
+204  21.193779  72.801813
+
+[205 rows x 2 columns]
+2025-01-29 13:04:12,112 - INFO - Map saved to templates/line_plot_map.html
+2025-01-29 13:04:12,147 - INFO - 127.0.0.1 - - [29/Jan/2025 13:04:12] "POST / HTTP/1.1" 200 -
+2025-01-29 20:19:50,680 - INFO - Starting Flask app...
+2025-01-29 20:19:50,717 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-29 20:19:50,717 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-29 20:19:50,718 - INFO -  * Restarting with stat
+2025-01-29 20:19:51,054 - INFO - Starting Flask app...
+2025-01-29 20:19:51,066 - WARNING -  * Debugger is active!
+2025-01-29 20:19:51,073 - INFO -  * Debugger PIN: 629-103-838
+2025-01-29 20:19:54,952 - INFO - 127.0.0.1 - - [29/Jan/2025 20:19:54] "GET / HTTP/1.1" 200 -
+2025-01-29 20:19:55,043 - INFO - 127.0.0.1 - - [29/Jan/2025 20:19:55] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-01-29 20:19:55,044 - INFO - 127.0.0.1 - - [29/Jan/2025 20:19:55] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-01-29 20:20:35,872 - INFO - POST request received.
+2025-01-29 20:20:35,874 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-01-29 20:20:35,876 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-01-29 20:20:35,909 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  12.018262  79.856846
+2  11.024254  77.002823
+3  11.024254  77.002823
+4  11.054768  76.994111
+2025-01-29 20:20:35,913 - INFO - Valid data after cleaning:
+      latitude  longitude
+0    11.054768  76.994111
+1    12.018262  79.856846
+2    11.024254  77.002823
+3    11.024254  77.002823
+4    11.054768  76.994111
+..         ...        ...
+200  11.066640  77.092803
+201  11.044240  77.029111
+202  11.080893  77.022347
+203  11.041881  77.060727
+204  21.193779  72.801813
+
+[205 rows x 2 columns]
+2025-01-29 20:20:36,101 - INFO - Map saved to templates/line_plot_map.html
+2025-01-29 20:20:36,138 - INFO - 127.0.0.1 - - [29/Jan/2025 20:20:36] "POST / HTTP/1.1" 200 -
+2025-01-30 15:40:43,789 - INFO - Starting Flask app...
+2025-01-30 15:40:43,825 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-30 15:40:43,825 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-30 15:40:43,825 - INFO -  * Restarting with stat
+2025-01-30 15:40:44,194 - INFO - Starting Flask app...
+2025-01-30 15:40:44,209 - WARNING -  * Debugger is active!
+2025-01-30 15:40:44,217 - INFO -  * Debugger PIN: 629-103-838
+2025-01-30 15:40:48,795 - INFO - 127.0.0.1 - - [30/Jan/2025 15:40:48] "GET / HTTP/1.1" 200 -
+2025-01-30 15:40:49,068 - INFO - 127.0.0.1 - - [30/Jan/2025 15:40:49] "GET /static/space.gif HTTP/1.1" 200 -
+2025-01-30 15:41:36,568 - INFO - POST request received.
+2025-01-30 15:41:36,569 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-01-30 15:41:36,570 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-01-30 15:41:36,608 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  12.018262  79.856846
+2  11.024254  77.002823
+3  11.024254  77.002823
+4  11.054768  76.994111
+2025-01-30 15:41:36,620 - INFO - Valid data after cleaning:
+      latitude  longitude
+0    11.054768  76.994111
+1    12.018262  79.856846
+2    11.024254  77.002823
+3    11.024254  77.002823
+4    11.054768  76.994111
+..         ...        ...
+200  11.066640  77.092803
+201  11.044240  77.029111
+202  11.080893  77.022347
+203  11.041881  77.060727
+204  21.193779  72.801813
+
+[205 rows x 2 columns]
+2025-01-30 15:41:36,801 - INFO - Map saved to templates/line_plot_map.html
+2025-01-30 15:41:36,825 - INFO - 127.0.0.1 - - [30/Jan/2025 15:41:36] "POST / HTTP/1.1" 200 -
+2025-01-30 16:26:59,696 - INFO - POST request received.
+2025-01-30 16:26:59,704 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-01-30 16:26:59,705 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-01-30 16:26:59,753 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  12.018262  79.856846
+2  11.024254  77.002823
+3  11.024254  77.002823
+4  11.054768  76.994111
+2025-01-30 16:26:59,759 - INFO - Valid data after cleaning:
+      latitude  longitude
+0    11.054768  76.994111
+1    12.018262  79.856846
+2    11.024254  77.002823
+3    11.024254  77.002823
+4    11.054768  76.994111
+..         ...        ...
+200  11.066640  77.092803
+201  11.044240  77.029111
+202  11.080893  77.022347
+203  11.041881  77.060727
+204  21.193779  72.801813
+
+[205 rows x 2 columns]
+2025-01-30 16:26:59,913 - INFO - Map saved to templates/line_plot_map.html
+2025-01-30 16:26:59,941 - INFO - 127.0.0.1 - - [30/Jan/2025 16:26:59] "POST / HTTP/1.1" 200 -
+2025-01-30 16:27:00,751 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:00] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-01-30 16:27:00,759 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:00] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-01-30 16:27:02,317 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:02] "GET / HTTP/1.1" 200 -
+2025-01-30 16:27:02,395 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:02] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-01-30 16:27:02,396 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:02] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-01-30 16:27:11,607 - INFO - POST request received.
+2025-01-30 16:27:11,612 - ERROR - Unexpected error during processing: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
+2025-01-30 16:27:11,612 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:11] "POST / HTTP/1.1" 200 -
+2025-01-30 16:27:21,633 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:21] "GET / HTTP/1.1" 200 -
+2025-01-30 16:27:21,647 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:21] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-01-30 16:27:21,654 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:21] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-01-30 16:27:37,764 - INFO - POST request received.
+2025-01-30 16:27:37,769 - ERROR - Unexpected error during processing: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
+2025-01-30 16:27:37,769 - INFO - 127.0.0.1 - - [30/Jan/2025 16:27:37] "POST / HTTP/1.1" 200 -
+2025-01-30 16:28:58,723 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-01-30 16:28:58,897 - INFO -  * Restarting with stat
+2025-02-05 16:12:38,789 - INFO - Starting Flask app...
+2025-02-05 16:12:38,823 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-05 16:12:38,823 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-05 16:12:38,823 - INFO -  * Restarting with stat
+2025-02-05 16:12:39,171 - INFO - Starting Flask app...
+2025-02-05 16:12:39,185 - WARNING -  * Debugger is active!
+2025-02-05 16:12:39,191 - INFO -  * Debugger PIN: 629-103-838
+2025-02-05 16:12:42,346 - INFO - 127.0.0.1 - - [05/Feb/2025 16:12:42] "GET / HTTP/1.1" 200 -
+2025-02-05 16:12:42,687 - INFO - 127.0.0.1 - - [05/Feb/2025 16:12:42] "GET /static/space.gif HTTP/1.1" 200 -
+2025-02-05 16:12:43,012 - INFO - 127.0.0.1 - - [05/Feb/2025 16:12:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-05 16:15:29,986 - INFO - 127.0.0.1 - - [05/Feb/2025 16:15:29] "GET / HTTP/1.1" 200 -
+2025-02-05 16:15:30,241 - INFO - 127.0.0.1 - - [05/Feb/2025 16:15:30] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-05 16:15:30,243 - INFO - 127.0.0.1 - - [05/Feb/2025 16:15:30] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-05 16:16:22,832 - INFO - 127.0.0.1 - - [05/Feb/2025 16:16:22] "GET / HTTP/1.1" 200 -
+2025-02-05 16:16:23,016 - INFO - 127.0.0.1 - - [05/Feb/2025 16:16:23] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-05 16:16:23,016 - INFO - 127.0.0.1 - - [05/Feb/2025 16:16:23] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-05 16:19:14,988 - INFO - 127.0.0.1 - - [05/Feb/2025 16:19:14] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+2025-02-05 16:19:14,994 - INFO - 127.0.0.1 - - [05/Feb/2025 16:19:14] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+2025-02-05 16:22:16,201 - INFO - Starting Flask app...
+2025-02-05 16:22:16,233 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-05 16:22:16,233 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-05 16:22:16,234 - INFO -  * Restarting with stat
+2025-02-05 16:22:16,570 - INFO - Starting Flask app...
+2025-02-05 16:22:16,584 - WARNING -  * Debugger is active!
+2025-02-05 16:22:16,592 - INFO -  * Debugger PIN: 629-103-838
+2025-02-05 16:22:18,953 - INFO - 127.0.0.1 - - [05/Feb/2025 16:22:18] "GET / HTTP/1.1" 200 -
+2025-02-05 16:22:19,103 - INFO - 127.0.0.1 - - [05/Feb/2025 16:22:19] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-05 16:22:33,790 - INFO - 127.0.0.1 - - [05/Feb/2025 16:22:33] "GET / HTTP/1.1" 200 -
+2025-02-05 16:22:33,810 - INFO - 127.0.0.1 - - [05/Feb/2025 16:22:33] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-05 16:23:22,914 - INFO - POST request received.
+2025-02-05 16:23:22,922 - ERROR - Unexpected error during processing: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
+2025-02-05 16:23:22,922 - INFO - 127.0.0.1 - - [05/Feb/2025 16:23:22] "POST / HTTP/1.1" 200 -
+2025-02-13 19:22:57,183 - INFO - Starting Flask app...
+2025-02-13 19:22:57,250 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 19:22:57,250 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 19:22:57,251 - INFO -  * Restarting with stat
+2025-02-13 19:22:57,588 - INFO - Starting Flask app...
+2025-02-13 19:22:57,602 - WARNING -  * Debugger is active!
+2025-02-13 19:22:57,609 - INFO -  * Debugger PIN: 945-847-775
+2025-02-13 19:23:27,857 - INFO - 127.0.0.1 - - [13/Feb/2025 19:23:27] "GET / HTTP/1.1" 200 -
+2025-02-13 19:23:28,103 - INFO - 127.0.0.1 - - [13/Feb/2025 19:23:28] "GET /static/space.gif HTTP/1.1" 200 -
+2025-02-13 19:23:28,207 - INFO - 127.0.0.1 - - [13/Feb/2025 19:23:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-02-13 19:23:38,389 - INFO - Starting Flask app...
+2025-02-13 19:23:38,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-13 19:23:38,408 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-13 19:23:38,408 - INFO -  * Restarting with stat
+2025-02-13 19:23:38,798 - INFO - Starting Flask app...
+2025-02-13 19:23:38,811 - WARNING -  * Debugger is active!
+2025-02-13 19:23:38,816 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:18:57,329 - INFO - Starting Flask app...
+2025-02-14 01:18:57,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 01:18:57,394 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 01:18:57,395 - INFO -  * Restarting with stat
+2025-02-14 01:18:57,737 - INFO - Starting Flask app...
+2025-02-14 01:18:57,750 - WARNING -  * Debugger is active!
+2025-02-14 01:18:57,758 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:19:03,143 - INFO - 127.0.0.1 - - [14/Feb/2025 01:19:03] "GET / HTTP/1.1" 200 -
+2025-02-14 01:19:03,535 - INFO - 127.0.0.1 - - [14/Feb/2025 01:19:03] "GET /static/space.gif HTTP/1.1" 200 -
+2025-02-14 01:19:31,092 - INFO - POST request received.
+2025-02-14 01:19:31,094 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:19:31,096 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:19:31,127 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:19:31,133 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:19:32,277 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:19:32,294 - INFO - 127.0.0.1 - - [14/Feb/2025 01:19:32] "POST / HTTP/1.1" 200 -
+2025-02-14 01:20:36,642 - INFO - 127.0.0.1 - - [14/Feb/2025 01:20:36] "GET / HTTP/1.1" 200 -
+2025-02-14 01:20:36,706 - INFO - 127.0.0.1 - - [14/Feb/2025 01:20:36] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:20:36,707 - INFO - 127.0.0.1 - - [14/Feb/2025 01:20:36] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:20:50,216 - INFO - POST request received.
+2025-02-14 01:20:50,219 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:20:50,219 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:20:50,229 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:20:50,233 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:20:53,677 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:20:53,694 - INFO - 127.0.0.1 - - [14/Feb/2025 01:20:53] "POST / HTTP/1.1" 200 -
+2025-02-14 01:23:20,419 - INFO - Starting Flask app...
+2025-02-14 01:23:20,438 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 01:23:20,438 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 01:23:20,439 - INFO -  * Restarting with stat
+2025-02-14 01:23:20,779 - INFO - Starting Flask app...
+2025-02-14 01:23:20,794 - WARNING -  * Debugger is active!
+2025-02-14 01:23:20,802 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:23:24,133 - INFO - 127.0.0.1 - - [14/Feb/2025 01:23:24] "GET / HTTP/1.1" 200 -
+2025-02-14 01:23:24,154 - INFO - 127.0.0.1 - - [14/Feb/2025 01:23:24] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:23:24,156 - INFO - 127.0.0.1 - - [14/Feb/2025 01:23:24] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:23:41,126 - INFO - POST request received.
+2025-02-14 01:23:41,127 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:23:41,128 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:23:41,136 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:23:41,140 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:23:44,584 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:23:44,602 - INFO - 127.0.0.1 - - [14/Feb/2025 01:23:44] "POST / HTTP/1.1" 200 -
+2025-02-14 01:24:53,934 - INFO - 127.0.0.1 - - [14/Feb/2025 01:24:53] "GET / HTTP/1.1" 200 -
+2025-02-14 01:24:53,956 - INFO - 127.0.0.1 - - [14/Feb/2025 01:24:53] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:24:53,962 - INFO - 127.0.0.1 - - [14/Feb/2025 01:24:53] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:25:11,414 - INFO - POST request received.
+2025-02-14 01:25:11,416 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:25:11,417 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:25:11,424 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:25:11,428 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:25:16,372 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:25:16,390 - INFO - 127.0.0.1 - - [14/Feb/2025 01:25:16] "POST / HTTP/1.1" 200 -
+2025-02-14 01:27:24,603 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:27:24,732 - INFO -  * Restarting with stat
+2025-02-14 01:27:25,359 - INFO - Starting Flask app...
+2025-02-14 01:27:25,375 - WARNING -  * Debugger is active!
+2025-02-14 01:27:25,381 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:28:42,594 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:28:42,677 - INFO -  * Restarting with stat
+2025-02-14 01:28:43,212 - INFO - Starting Flask app...
+2025-02-14 01:28:43,227 - WARNING -  * Debugger is active!
+2025-02-14 01:28:43,233 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:28:44,251 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:28:44,326 - INFO -  * Restarting with stat
+2025-02-14 01:29:04,899 - INFO - Starting Flask app...
+2025-02-14 01:29:04,919 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 01:29:04,919 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 01:29:04,920 - INFO -  * Restarting with stat
+2025-02-14 01:29:05,254 - INFO - Starting Flask app...
+2025-02-14 01:29:05,268 - WARNING -  * Debugger is active!
+2025-02-14 01:29:05,273 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:29:18,496 - INFO - 127.0.0.1 - - [14/Feb/2025 01:29:18] "GET / HTTP/1.1" 200 -
+2025-02-14 01:29:18,513 - INFO - 127.0.0.1 - - [14/Feb/2025 01:29:18] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:29:39,963 - INFO - POST request received.
+2025-02-14 01:29:39,966 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:29:39,967 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:29:39,981 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:29:39,985 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:29:44,987 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:29:45,010 - INFO - 127.0.0.1 - - [14/Feb/2025 01:29:45] "POST / HTTP/1.1" 200 -
+2025-02-14 01:31:19,297 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:31:19,403 - INFO -  * Restarting with stat
+2025-02-14 01:31:19,960 - INFO - Starting Flask app...
+2025-02-14 01:31:19,976 - WARNING -  * Debugger is active!
+2025-02-14 01:31:19,982 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:31:32,213 - INFO - 127.0.0.1 - - [14/Feb/2025 01:31:32] "GET / HTTP/1.1" 200 -
+2025-02-14 01:31:32,285 - INFO - 127.0.0.1 - - [14/Feb/2025 01:31:32] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:31:32,285 - INFO - 127.0.0.1 - - [14/Feb/2025 01:31:32] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:31:43,923 - INFO - POST request received.
+2025-02-14 01:31:43,925 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:31:43,926 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:31:43,934 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:31:43,936 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:31:48,954 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:31:48,976 - INFO - 127.0.0.1 - - [14/Feb/2025 01:31:48] "POST / HTTP/1.1" 200 -
+2025-02-14 01:37:43,897 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:37:44,013 - INFO -  * Restarting with stat
+2025-02-14 01:37:44,626 - INFO - Starting Flask app...
+2025-02-14 01:37:44,643 - WARNING -  * Debugger is active!
+2025-02-14 01:37:44,651 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:37:45,674 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:37:45,746 - INFO -  * Restarting with stat
+2025-02-14 01:37:46,085 - INFO - Starting Flask app...
+2025-02-14 01:37:46,098 - WARNING -  * Debugger is active!
+2025-02-14 01:37:46,102 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:37:48,140 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:37:48,218 - INFO -  * Restarting with stat
+2025-02-14 01:37:48,571 - INFO - Starting Flask app...
+2025-02-14 01:37:48,584 - WARNING -  * Debugger is active!
+2025-02-14 01:37:48,589 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:38:08,889 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:38:08,969 - INFO -  * Restarting with stat
+2025-02-14 01:38:09,449 - INFO - Starting Flask app...
+2025-02-14 01:38:09,463 - WARNING -  * Debugger is active!
+2025-02-14 01:38:09,468 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:38:15,543 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:38:15,603 - INFO -  * Restarting with stat
+2025-02-14 01:38:16,057 - INFO - Starting Flask app...
+2025-02-14 01:38:16,070 - WARNING -  * Debugger is active!
+2025-02-14 01:38:16,075 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:38:21,131 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:38:21,205 - INFO -  * Restarting with stat
+2025-02-14 01:38:21,547 - INFO - Starting Flask app...
+2025-02-14 01:38:21,560 - WARNING -  * Debugger is active!
+2025-02-14 01:38:21,565 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:38:41,865 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:38:41,935 - INFO -  * Restarting with stat
+2025-02-14 01:39:05,089 - INFO - Starting Flask app...
+2025-02-14 01:39:05,110 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 01:39:05,110 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 01:39:05,110 - INFO -  * Restarting with stat
+2025-02-14 01:39:05,457 - INFO - Starting Flask app...
+2025-02-14 01:39:05,469 - WARNING -  * Debugger is active!
+2025-02-14 01:39:05,475 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:39:12,356 - INFO - POST request received.
+2025-02-14 01:39:12,368 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:39:12,385 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:39:12,397 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:39:12,400 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:39:17,642 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:39:17,667 - INFO - 127.0.0.1 - - [14/Feb/2025 01:39:17] "POST / HTTP/1.1" 200 -
+2025-02-14 01:39:17,840 - INFO - 127.0.0.1 - - [14/Feb/2025 01:39:17] "GET / HTTP/1.1" 200 -
+2025-02-14 01:39:17,883 - INFO - 127.0.0.1 - - [14/Feb/2025 01:39:17] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:39:17,883 - INFO - 127.0.0.1 - - [14/Feb/2025 01:39:17] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:39:31,572 - INFO - POST request received.
+2025-02-14 01:39:31,574 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:39:31,575 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:39:31,587 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:39:31,591 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:39:36,580 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:39:36,605 - INFO - 127.0.0.1 - - [14/Feb/2025 01:39:36] "POST / HTTP/1.1" 200 -
+2025-02-14 01:40:59,229 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:40:59,323 - INFO -  * Restarting with stat
+2025-02-14 01:40:59,969 - INFO - Starting Flask app...
+2025-02-14 01:40:59,987 - WARNING -  * Debugger is active!
+2025-02-14 01:40:59,994 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:41:01,011 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:41:01,078 - INFO -  * Restarting with stat
+2025-02-14 01:41:01,416 - INFO - Starting Flask app...
+2025-02-14 01:41:01,428 - WARNING -  * Debugger is active!
+2025-02-14 01:41:01,432 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:41:03,477 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:41:03,563 - INFO -  * Restarting with stat
+2025-02-14 01:41:03,935 - INFO - Starting Flask app...
+2025-02-14 01:41:03,947 - WARNING -  * Debugger is active!
+2025-02-14 01:41:03,951 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:41:06,992 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:41:07,072 - INFO -  * Restarting with stat
+2025-02-14 01:41:07,422 - INFO - Starting Flask app...
+2025-02-14 01:41:07,435 - WARNING -  * Debugger is active!
+2025-02-14 01:41:07,441 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:41:09,477 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:41:09,552 - INFO -  * Restarting with stat
+2025-02-14 01:41:09,896 - INFO - Starting Flask app...
+2025-02-14 01:41:09,909 - WARNING -  * Debugger is active!
+2025-02-14 01:41:09,913 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:41:16,001 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:41:16,061 - INFO -  * Restarting with stat
+2025-02-14 01:41:16,424 - INFO - Starting Flask app...
+2025-02-14 01:41:16,438 - WARNING -  * Debugger is active!
+2025-02-14 01:41:16,443 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:41:18,469 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:41:18,540 - INFO -  * Restarting with stat
+2025-02-14 01:41:18,910 - INFO - Starting Flask app...
+2025-02-14 01:41:18,924 - WARNING -  * Debugger is active!
+2025-02-14 01:41:18,929 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:41:19,941 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:41:19,999 - INFO -  * Restarting with stat
+2025-02-14 01:41:20,339 - INFO - Starting Flask app...
+2025-02-14 01:41:20,351 - WARNING -  * Debugger is active!
+2025-02-14 01:41:20,356 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:41:23,834 - INFO - 127.0.0.1 - - [14/Feb/2025 01:41:23] "GET / HTTP/1.1" 200 -
+2025-02-14 01:41:23,889 - INFO - 127.0.0.1 - - [14/Feb/2025 01:41:23] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:41:23,890 - INFO - 127.0.0.1 - - [14/Feb/2025 01:41:23] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:42:55,325 - INFO - POST request received.
+2025-02-14 01:42:55,328 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:42:55,328 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:42:55,397 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:42:55,402 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:43:00,861 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:43:00,887 - INFO - 127.0.0.1 - - [14/Feb/2025 01:43:00] "POST / HTTP/1.1" 200 -
+2025-02-14 01:43:44,199 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:43:44,308 - INFO -  * Restarting with stat
+2025-02-14 01:43:44,899 - INFO - Starting Flask app...
+2025-02-14 01:43:44,916 - WARNING -  * Debugger is active!
+2025-02-14 01:43:44,921 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:43:46,955 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:43:47,019 - INFO -  * Restarting with stat
+2025-02-14 01:43:47,374 - INFO - Starting Flask app...
+2025-02-14 01:43:47,387 - WARNING -  * Debugger is active!
+2025-02-14 01:43:47,391 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:43:50,685 - INFO - 127.0.0.1 - - [14/Feb/2025 01:43:50] "GET / HTTP/1.1" 200 -
+2025-02-14 01:43:50,747 - INFO - 127.0.0.1 - - [14/Feb/2025 01:43:50] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:43:50,747 - INFO - 127.0.0.1 - - [14/Feb/2025 01:43:50] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:44:02,459 - INFO - POST request received.
+2025-02-14 01:44:02,461 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:44:02,462 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:44:02,470 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:44:02,472 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:44:07,593 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:44:07,619 - INFO - 127.0.0.1 - - [14/Feb/2025 01:44:07] "POST / HTTP/1.1" 200 -
+2025-02-14 01:45:13,652 - INFO - Starting Flask app...
+2025-02-14 01:45:13,671 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 01:45:13,671 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 01:45:13,672 - INFO -  * Restarting with stat
+2025-02-14 01:45:14,010 - INFO - Starting Flask app...
+2025-02-14 01:45:14,022 - WARNING -  * Debugger is active!
+2025-02-14 01:45:14,028 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:45:25,192 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 01:45:25,274 - INFO -  * Restarting with stat
+2025-02-14 01:45:25,767 - INFO - Starting Flask app...
+2025-02-14 01:45:25,782 - WARNING -  * Debugger is active!
+2025-02-14 01:45:25,786 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 01:45:28,505 - INFO - 127.0.0.1 - - [14/Feb/2025 01:45:28] "GET / HTTP/1.1" 200 -
+2025-02-14 01:45:28,554 - INFO - 127.0.0.1 - - [14/Feb/2025 01:45:28] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:45:28,554 - INFO - 127.0.0.1 - - [14/Feb/2025 01:45:28] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:45:40,770 - INFO - POST request received.
+2025-02-14 01:45:40,774 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:45:40,775 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:45:40,782 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:45:40,784 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:45:45,845 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:45:45,870 - INFO - 127.0.0.1 - - [14/Feb/2025 01:45:45] "POST / HTTP/1.1" 200 -
+2025-02-14 01:47:01,969 - INFO - 127.0.0.1 - - [14/Feb/2025 01:47:01] "GET / HTTP/1.1" 200 -
+2025-02-14 01:47:02,034 - INFO - 127.0.0.1 - - [14/Feb/2025 01:47:02] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:47:02,035 - INFO - 127.0.0.1 - - [14/Feb/2025 01:47:02] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:47:19,034 - INFO - POST request received.
+2025-02-14 01:47:19,037 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:47:19,037 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:47:19,043 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:47:19,045 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:47:22,548 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:47:22,570 - INFO - 127.0.0.1 - - [14/Feb/2025 01:47:22] "POST / HTTP/1.1" 200 -
+2025-02-14 01:48:06,828 - INFO - 127.0.0.1 - - [14/Feb/2025 01:48:06] "GET / HTTP/1.1" 200 -
+2025-02-14 01:48:06,871 - INFO - 127.0.0.1 - - [14/Feb/2025 01:48:06] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:48:06,872 - INFO - 127.0.0.1 - - [14/Feb/2025 01:48:06] "[36mGET /static/space.gif HTTP/1.1[0m" 304 -
+2025-02-14 01:48:15,196 - INFO - POST request received.
+2025-02-14 01:48:15,199 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 01:48:15,200 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 01:48:15,208 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 01:48:15,212 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 01:48:16,246 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 01:48:16,264 - INFO - 127.0.0.1 - - [14/Feb/2025 01:48:16] "POST / HTTP/1.1" 200 -
