@@ -1,10 +1,13 @@
 services:
   - type: web
-    name: flask-app
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python app.py"
+    name: linestring-flask-app
+    runtime: python
     envVars:
-      - key: PORT
-        value: 5000
-
+      - key: PYTHON_VERSION
+        value: "3.11.11"
+    buildCommand: |
+      python -m venv venv
+      source venv/bin/activate
+      pip install --upgrade pip
+      pip install -r requirements.txt
+    startCommand: sh start.sh
