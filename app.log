@@ -1332,3 +1332,52 @@
 [142 rows x 2 columns]
 2025-02-14 01:48:16,246 - INFO - Map saved to templates/line_plot_map.html
 2025-02-14 01:48:16,264 - INFO - 127.0.0.1 - - [14/Feb/2025 01:48:16] "POST / HTTP/1.1" 200 -
+2025-02-14 02:38:35,684 - INFO - Starting Flask app...
+2025-02-14 02:38:35,706 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-02-14 02:38:35,706 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-14 02:38:35,706 - INFO -  * Restarting with stat
+2025-02-14 02:38:36,050 - INFO - Starting Flask app...
+2025-02-14 02:38:36,064 - WARNING -  * Debugger is active!
+2025-02-14 02:38:36,074 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 02:41:31,614 - INFO - 127.0.0.1 - - [14/Feb/2025 02:41:31] "GET / HTTP/1.1" 200 -
+2025-02-14 02:41:31,634 - INFO - 127.0.0.1 - - [14/Feb/2025 02:41:31] "GET /static/space.gif HTTP/1.1" 200 -
+2025-02-14 02:41:46,410 - INFO - POST request received.
+2025-02-14 02:41:46,412 - DEBUG - Uploaded file: saev_charge_station.csv
+2025-02-14 02:41:46,413 - INFO - CSV file saved at uploads/saev_charge_station.csv
+2025-02-14 02:41:46,443 - INFO - CSV loaded successfully. First few rows:
+    latitude  longitude
+0  11.054768  76.994111
+1  11.079699  76.999739
+2  11.078157  77.011825
+3  11.076655  77.002440
+4  12.954585  80.156527
+2025-02-14 02:41:46,451 - INFO - Valid data after cleaning:
+      latitude   longitude
+0    11.054768   76.994111
+1    11.079699   76.999739
+2    11.078157   77.011825
+3    11.076655   77.002440
+4    12.954585   80.156527
+..         ...         ...
+137  28.595083   77.170919
+138  26.924737   75.818434
+139  -6.915273  107.594539
+140   8.081605   77.548646
+141  11.028601   79.854752
+
+[142 rows x 2 columns]
+2025-02-14 02:41:50,027 - INFO - Map saved to templates/line_plot_map.html
+2025-02-14 02:41:50,049 - INFO - 127.0.0.1 - - [14/Feb/2025 02:41:50] "POST / HTTP/1.1" 200 -
+2025-02-14 02:46:46,961 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 02:46:47,078 - INFO -  * Restarting with stat
+2025-02-14 02:46:47,726 - INFO - Starting Flask app...
+2025-02-14 02:46:47,745 - WARNING -  * Debugger is active!
+2025-02-14 02:46:47,752 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 02:46:48,796 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 02:46:48,858 - INFO -  * Restarting with stat
+2025-02-14 02:46:49,204 - INFO - Starting Flask app...
+2025-02-14 02:46:49,217 - WARNING -  * Debugger is active!
+2025-02-14 02:46:49,221 - INFO -  * Debugger PIN: 945-847-775
+2025-02-14 02:47:00,378 - INFO -  * Detected change in '/Users/raagullsakthivelv/projects/linestring_plotting/app.py', reloading
+2025-02-14 02:47:00,447 - INFO -  * Restarting with stat

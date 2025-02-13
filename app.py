@@ -5,9 +5,14 @@ from shapely.geometry import LineString
 import os
 import logging
 import subprocess
+from flask import Flask
+import jinja2
 
 # Initialize Flask app
 app = Flask(__name__)
+
+# Disable Jinja2 template caching
+app.jinja_env.cache = None
 
 # Configure logging
 logging.basicConfig(
@@ -130,6 +135,11 @@ def index():
 
                 # Save map to HTML
                 map_path = 'templates/line_plot_map.html'
+                
+                # Delete old file if it exists
+                if os.path.exists(map_path):
+                    os.remove(map_path)
+
                 m.save(map_path)
                 logging.info(f"Map saved to {map_path}")
 
