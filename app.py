@@ -7,6 +7,7 @@ import logging
 import subprocess
 from flask import Flask
 import jinja2
+import requests  # To call a routing API
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -34,6 +35,47 @@ def extract_coordinates(linestring):
     except Exception as e:
         # logging.error(f"Error extracting coordinates from LINESTRING: {e}")
         raise ValueError("Invalid LINESTRING format. Please check the input.")
+    
+# OpenRouteService API Key (Replace with your API key)
+ORS_API_KEY = "5b3ce3597851110001cf624874e5749e218d4224a8b27a6d1e35992c"
+ORS_BASE_URL = "https://api.openrouteservice.org/v2/directions/driving-car"
+
+# Function to get encoded polyline from OpenRouteService
+ORS_API_KEY = "5b3ce3597851110001cf624874e5749e218d4224a8b27a6d1e35992c"
+ORS_BASE_URL = "https://api.openrouteservice.org/v2/directions/driving-car/json"
+
+def get_encoded_polyline(start, end):
+    print(f"Getting encoded polyline for start: {start}, end: {end}")
+    
+    # OpenRouteService requires coordinates in (longitude, latitude) order
+    body = {
+        "coordinates": [
+            [float(start[1]), float(start[0])],  # (lon, lat)
+            [float(end[1]), float(end[0])]
+        ],
+        "radiuses":-1
+    }
+    
+    headers = {
+        "Accept": "application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8",
+        "Authorization": ORS_API_KEY,
+        "Content-Type": "application/json; charset=utf-8"
+    }
+    
+    response = requests.post(ORS_BASE_URL, json=body, headers=headers)
+    
+    print(f"Response status code: {response.status_code}")
+
+    if response.status_code == 200:
+        data = response.json()
+        print(f"Response data: {data}")
+        polyline_str = data["routes"][0]["geometry"]  # Extract encoded polyline
+        print(f"Encoded polyline: {polyline_str}")
+        return polyline_str
+    else:
+        logging.error(f"Failed to get route: {response.text}")
+        print(f"Error response: {response.text}")
+        return None
     
 def add_red_polyline(map_object, coordinates):
     """Adds a red polyline to the map based on given coordinates."""
@@ -72,7 +114,16 @@ def index():
         try:
             # Get the uploaded CSV file
             csv_file = request.files["csv_file"]
-            linestring = request.form["linestring"]
+            linestringoriginal = request.form["linestring"]
+            start_lat = request.form["start_lat"]
+            start_lng = request.form["start_lng"]
+            end_lat = request.form["end_lat"]
+            end_lng = request.form["end_lng"]
+
+            if linestringoriginal:
+                linestring = linestringoriginal
+            else:
+                linestring = get_encoded_polyline([start_lat, start_lng], [end_lat, end_lng])
 
             logging.debug(f"Uploaded file: {csv_file.filename}")
             # logging.debug(f"Received LINESTRING: {linestring}")

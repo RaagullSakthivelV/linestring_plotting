@@ -6,6 +6,10 @@
     <title>Trip Map Generator</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -15,7 +19,7 @@
             align-items: center;
             height: 100vh;
             background: url('static/space.gif') repeat center center fixed;
-            background-size: cover; /* Ensures the GIF covers the entire screen */
+            background-size: cover;
             color: #fff;
         }
 
@@ -24,29 +28,61 @@
             border-radius: 20px;
             backdrop-filter: blur(15px);
             padding: 30px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
-            width: 420px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            width: 600px;
             text-align: center;
             border: 2px solid rgba(255, 255, 255, 0.3);
+            animation: fadeIn 0.8s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         h1 {
-            font-size: 26px;
-            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+            font-size: 28px;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
         }
 
-        input[type="file"], textarea {
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .row .input-group {
+            flex: 1;
+        }
+
+        label {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        input, textarea {
             width: 100%;
-            margin: 10px 0;
             padding: 12px;
             border: none;
             border-radius: 12px;
-            background: rgba(0, 0, 0, 0.3);
+            background: rgba(0, 0, 0, 0.4);
             color: #fff;
             font-size: 14px;
             outline: none;
-            transition: 0.3s ease;
-            box-shadow: 0 0 10px rgba(0, 153, 255, 0.8);
+            transition: 0.3s ease-in-out;
+            box-shadow: 0 0 10px rgba(0, 153, 255, 0.7);
+        }
+
+        input:hover, textarea:hover {
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        input:focus, textarea:focus {
+            box-shadow: 0 0 15px #00ffff;
         }
 
         input[type="file"]::file-selector-button {
@@ -56,17 +92,12 @@
             border: none;
             border-radius: 12px;
             cursor: pointer;
-            transition: 0.3s ease;
-            box-shadow: 0 0 10px #ff00ff;
+            transition: 0.3s ease-in-out;
+            box-shadow: 0 0 12px #ff00ff;
         }
 
         input[type="file"]::file-selector-button:hover {
             background: #d400d4;
-        }
-
-        textarea {
-            height: 100px;
-            resize: none;
         }
 
         button {
@@ -77,24 +108,31 @@
             padding: 12px 20px;
             font-size: 16px;
             cursor: pointer;
-            transition: 0.3s ease;
+            transition: 0.3s ease-in-out;
             box-shadow: 0 0 15px rgba(0, 242, 255, 0.8);
+            width: 100%;
         }
 
         button:hover {
             background: linear-gradient(135deg, #00c3ff, #0066ff);
+            box-shadow: 0 0 20px rgba(0, 242, 255, 1);
         }
 
         .back-button {
             background: none;
             color: #fff;
             border: 2px solid #fff;
-            margin-top: 20px;
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            border-radius: 12px;
+            transition: 0.3s ease-in-out;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
         }
 
         .back-button:hover {
             background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
         }
     </style>
 </head>
@@ -102,15 +140,41 @@
     <div class="container">
         <h1>Trip Map Generator</h1>
         <form action="/" method="POST" enctype="multipart/form-data">
-            <label for="csv_file">Choose CSV File:</label>
-            <input type="file" id="csv_file" name="csv_file" accept=".csv" required>
+            <div class="input-group">
+                <label for="csv_file">Choose CSV File:</label>
+                <input type="file" id="csv_file" name="csv_file" accept=".csv" required>
+            </div>
 
-            <label for="linestring">Enter EncodedPolyline:</label>
-            <textarea id="linestring" name="linestring" placeholder="exy`AqszrMvBgClBgCRQr@e@dDiB`Ao@vCaBnBsA~A_B`CyC" required></textarea>
+            <div class="input-group">
+                <label for="linestring">Enter Encoded Polyline:</label>
+                <textarea id="linestring" name="linestring" placeholder="exy`AqszrMvBgClBgCRQr@e@dDiB`Ao@vCaBnBsA~A_B`CyC"></textarea>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label for="start_lat">Start Latitude:</label>
+                    <input type="text" id="start_lat" name="start_lat" placeholder="10.344564">
+                </div>
+                <div class="input-group">
+                    <label for="start_lng">Start Longitude:</label>
+                    <input type="text" id="start_lng" name="start_lng" placeholder="123.897654">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-group">
+                    <label for="end_lat">End Latitude:</label>
+                    <input type="text" id="end_lat" name="end_lat" placeholder="10.344564">
+                </div>
+                <div class="input-group">
+                    <label for="end_lng">End Longitude:</label>
+                    <input type="text" id="end_lng" name="end_lng" placeholder="123.897654">
+                </div>
+            </div>
 
             <button type="submit">Generate Map</button>
+          
         </form>
-        <!-- <button class="back-button" onclick="history.back()">← Back</button> -->
     </div>
 </body>
 </html>
