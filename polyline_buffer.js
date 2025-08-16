@@ -23,8 +23,28 @@ function getBufferedLineStringWKT(encodedPolyline, bufferRadius = 5) {
     return null;
 }
 
+const getLineString = (encodedPolyline) => {
+    let coords = polyline.decode(encodedPolyline).map(coord => [coord[0], coord[1]]);
+    // Reverse the coords array and append to the original array
+    let reversedCoords = [...coords].reverse();
+    coords = coords.concat(reversedCoords);
+  
+    // Generate the LINESTRING parts
+    const lineStrParts = coords.map((co, i) => {
+      const adjustedCoord = i >= coords.length / 2 ? co[0] + 0.1 : co[0] - 0.1;
+      return `${adjustedCoord} ${co[1]}`;
+    });
+  
+    // Construct the LINESTRING and include the first coordinate adjusted
+    const lineStr = `LINESTRING(${lineStrParts.join(", ")}, ${
+      coords[0][0] - 0.2
+    } ${coords[0][1]})`;
+  
+    return lineStr;
+  }
+
 // Read from command line arguments
 const encodedPolyline = process.argv[2];
 const bufferRadius = process.argv[3] ? parseFloat(process.argv[3]) : 5;
 
-console.log(getBufferedLineStringWKT(encodedPolyline, bufferRadius));
+console.log(getLineString(encodedPolyline, bufferRadius));
